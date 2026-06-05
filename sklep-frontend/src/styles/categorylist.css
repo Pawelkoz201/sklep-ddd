@@ -1,0 +1,72 @@
+/* category-list-container */
+.category-list-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f5f8; /* Light background for the shop */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px; /* Make the category list narrow */
+  position: sticky;
+  top: 0;
+}
+
+.category-list-container h1 {
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2f855a; /* Plant green color */
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.category-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-item {
+  background-color: #e9f7ef; /* Soft green background for each item */
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  color: #2d6a4f; /* Dark green text */
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category-item:hover {
+  background-color: #d0f4e7; /* Lighter green on hover */
+  transform: translateX(5px); /* Small sliding effect */
+}
+
+.category-item:active {
+  background-color: #a5e3c7; /* Even lighter green on active click */
+}
+
+.category-item:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 3px #4caf50; /* Focus outline to improve accessibility */
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .category-list-container {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .category-list-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .category-item {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}

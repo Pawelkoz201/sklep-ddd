@@ -1,0 +1,52 @@
+﻿.home {
+    height: 100vh; /* Pełna wysokość ekranu */
+    background-color: cadetblue;
+    background-image: url('/tlologin.jpg'); /* Ścieżka do obrazu tła */
+    background-size: cover; /* Dopasowanie tła */
+    background-position: center; /* Wyśrodkowanie tła */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Nakładka z przezroczystością */
+.home-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Przyciemnienie */
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    color: white; /* Kolor tekstu */
+    max-width: 600px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Nagłówek */
+.home-title {
+    color:white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+/* Opis */
+.home-description {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+/* Styl przycisku */
+.home-button {
+    background-color: #6db583; /* Kolor zielony */
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .home-button:hover {
+        background-color: #5ca473; /* Lekko ciemniejszy odcień */
+    }

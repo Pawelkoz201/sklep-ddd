@@ -1,0 +1,1 @@
+[] - zmienic to ze produkty z bazy sie usuwaja gdy dodaje sie je do koszyka

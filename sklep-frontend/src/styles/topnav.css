@@ -1,0 +1,90 @@
+/* Navbar styles (Navbar.css) */
+.navbar {
+    background-color: #40826D; /* Background color for navbar */
+    padding: 10px 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container {
+    width: 100%;
+    max-width: 2000px; /* Mo¿esz dostosowaæ, aby navbar nie by³ zbyt szeroki */
+    display: flex;
+    justify-content: space-between; /* Ustawienie loga i linków po lewej oraz przycisków po prawej */
+    align-items: center;
+}
+
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  padding: 20;
+}
+.navbar-logo a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    padding: 20;
+}
+
+.navbar-links {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: solid;
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+}
+
+.navbar-links li {
+  margin-right: 20px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.navbar-links li a:hover {
+  color: #e9c46a; /* Hover color */
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-button {
+  background-color: #e9c46a;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.navbar-button:hover {
+  background-color: #f4a261; /* Hover color */
+}
+
+/* Responsive Design */
+@media (max-width: 1080px) {
+  .navbar-container {
+    flex-direction: column;
+  }
+  .navbar-links {
+    margin-top: 10px;
+  }
+}
+.logo {
+    margin-right: 8px;
+    width: 30px;
+    margin: 0;
+    padding: 20;
+}

@@ -1,0 +1,24 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    font-family: 'Open Sans',serif;
+}
+.footer {
+    background-color: #40826D; /* Kolor tła nawigacji */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: solid;
+    color: #fff;
+    height:auto;
+}
+.logo {
+    margin-right: 8px;
+    width: 30px;
+    color: #fff;
+}
+.link {
+    color: #d1ce8a;
+}
+.copyrigts{
+    font-family:'Sans Serif Collection';
+}
