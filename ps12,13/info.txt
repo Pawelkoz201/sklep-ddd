@@ -1,5 +1,0 @@
-Pliki:
-sklep-mikroserwisy-zadanie.md - główne sprawozdanie/projekt
-event-contracts.md - kontrakty zdarzeń domenowych
-docker-compose.microservices.yml - przykładowy compose dla usług, baz i RabbitMQ
-nginx.microservices.conf - przykładowy API Gateway
